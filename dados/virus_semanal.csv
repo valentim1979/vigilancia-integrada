@@ -1,0 +1,496 @@
+recorte;vigilancia;SE;inicio_se;virus;n;preliminar
+15ª RS;SRAG (internados);012026;2026-01-04;COVID-19;3;FALSE
+15ª RS;SRAG (internados);012026;2026-01-04;Influenza;4;FALSE
+15ª RS;SRAG (internados);012026;2026-01-04;Não especificado;13;FALSE
+15ª RS;SRAG (internados);012026;2026-01-04;Outro vírus respiratório;9;FALSE
+15ª RS;SRAG (internados);022026;2026-01-11;COVID-19;1;FALSE
+15ª RS;SRAG (internados);022026;2026-01-11;Influenza;1;FALSE
+15ª RS;SRAG (internados);022026;2026-01-11;Não especificado;12;FALSE
+15ª RS;SRAG (internados);022026;2026-01-11;Outro agente etiológico;1;FALSE
+15ª RS;SRAG (internados);032026;2026-01-18;COVID-19;1;FALSE
+15ª RS;SRAG (internados);032026;2026-01-18;Influenza;4;FALSE
+15ª RS;SRAG (internados);032026;2026-01-18;Não especificado;11;FALSE
+15ª RS;SRAG (internados);042026;2026-01-25;COVID-19;2;FALSE
+15ª RS;SRAG (internados);042026;2026-01-25;Influenza;3;FALSE
+15ª RS;SRAG (internados);042026;2026-01-25;Não especificado;7;FALSE
+15ª RS;SRAG (internados);042026;2026-01-25;Outro vírus respiratório;3;FALSE
+15ª RS;SRAG (internados);052026;2026-02-01;COVID-19;2;FALSE
+15ª RS;SRAG (internados);052026;2026-02-01;Influenza;5;FALSE
+15ª RS;SRAG (internados);052026;2026-02-01;Não especificado;13;FALSE
+15ª RS;SRAG (internados);052026;2026-02-01;Outro vírus respiratório;6;FALSE
+15ª RS;SRAG (internados);062026;2026-02-08;COVID-19;1;FALSE
+15ª RS;SRAG (internados);062026;2026-02-08;Influenza;3;FALSE
+15ª RS;SRAG (internados);062026;2026-02-08;Não especificado;11;FALSE
+15ª RS;SRAG (internados);062026;2026-02-08;Outro vírus respiratório;6;FALSE
+15ª RS;SRAG (internados);072026;2026-02-15;COVID-19;2;FALSE
+15ª RS;SRAG (internados);072026;2026-02-15;Influenza;3;FALSE
+15ª RS;SRAG (internados);072026;2026-02-15;Não especificado;12;FALSE
+15ª RS;SRAG (internados);072026;2026-02-15;Outro vírus respiratório;14;FALSE
+15ª RS;SRAG (internados);082026;2026-02-22;COVID-19;2;FALSE
+15ª RS;SRAG (internados);082026;2026-02-22;Em investigação;1;FALSE
+15ª RS;SRAG (internados);082026;2026-02-22;Influenza;3;FALSE
+15ª RS;SRAG (internados);082026;2026-02-22;Não especificado;16;FALSE
+15ª RS;SRAG (internados);082026;2026-02-22;Outro vírus respiratório;6;FALSE
+15ª RS;SRAG (internados);092026;2026-03-01;COVID-19;3;FALSE
+15ª RS;SRAG (internados);092026;2026-03-01;Influenza;7;FALSE
+15ª RS;SRAG (internados);092026;2026-03-01;Não especificado;10;FALSE
+15ª RS;SRAG (internados);092026;2026-03-01;Outro vírus respiratório;14;FALSE
+15ª RS;SRAG (internados);102026;2026-03-08;COVID-19;2;FALSE
+15ª RS;SRAG (internados);102026;2026-03-08;Influenza;4;FALSE
+15ª RS;SRAG (internados);102026;2026-03-08;Não especificado;15;FALSE
+15ª RS;SRAG (internados);102026;2026-03-08;Outro vírus respiratório;6;FALSE
+15ª RS;SRAG (internados);112026;2026-03-15;COVID-19;1;FALSE
+15ª RS;SRAG (internados);112026;2026-03-15;Influenza;8;FALSE
+15ª RS;SRAG (internados);112026;2026-03-15;Não especificado;16;FALSE
+15ª RS;SRAG (internados);112026;2026-03-15;Outro vírus respiratório;10;FALSE
+15ª RS;SRAG (internados);122026;2026-03-22;COVID-19;1;FALSE
+15ª RS;SRAG (internados);122026;2026-03-22;Influenza;6;FALSE
+15ª RS;SRAG (internados);122026;2026-03-22;Não especificado;9;FALSE
+15ª RS;SRAG (internados);122026;2026-03-22;Outro vírus respiratório;5;FALSE
+15ª RS;SRAG (internados);132026;2026-03-29;Em investigação;1;FALSE
+15ª RS;SRAG (internados);132026;2026-03-29;Influenza;3;FALSE
+15ª RS;SRAG (internados);132026;2026-03-29;Não especificado;12;FALSE
+15ª RS;SRAG (internados);132026;2026-03-29;Outro vírus respiratório;8;FALSE
+15ª RS;SRAG (internados);142026;2026-04-05;Em investigação;1;FALSE
+15ª RS;SRAG (internados);142026;2026-04-05;Influenza;10;FALSE
+15ª RS;SRAG (internados);142026;2026-04-05;Não especificado;18;FALSE
+15ª RS;SRAG (internados);142026;2026-04-05;Outro vírus respiratório;12;FALSE
+15ª RS;SRAG (internados);152026;2026-04-12;COVID-19;2;FALSE
+15ª RS;SRAG (internados);152026;2026-04-12;Influenza;13;FALSE
+15ª RS;SRAG (internados);152026;2026-04-12;Não especificado;16;FALSE
+15ª RS;SRAG (internados);152026;2026-04-12;Outro vírus respiratório;13;FALSE
+15ª RS;SRAG (internados);162026;2026-04-19;Em investigação;1;FALSE
+15ª RS;SRAG (internados);162026;2026-04-19;Influenza;10;FALSE
+15ª RS;SRAG (internados);162026;2026-04-19;Não especificado;12;FALSE
+15ª RS;SRAG (internados);162026;2026-04-19;Outro vírus respiratório;13;FALSE
+15ª RS;SRAG (internados);172026;2026-04-26;COVID-19;1;FALSE
+15ª RS;SRAG (internados);172026;2026-04-26;Influenza;11;FALSE
+15ª RS;SRAG (internados);172026;2026-04-26;Não especificado;14;FALSE
+15ª RS;SRAG (internados);172026;2026-04-26;Outro vírus respiratório;21;FALSE
+15ª RS;SRAG (internados);182026;2026-05-03;Influenza;8;FALSE
+15ª RS;SRAG (internados);182026;2026-05-03;Não especificado;9;FALSE
+15ª RS;SRAG (internados);182026;2026-05-03;Outro vírus respiratório;36;FALSE
+15ª RS;SRAG (internados);192026;2026-05-10;COVID-19;1;FALSE
+15ª RS;SRAG (internados);192026;2026-05-10;Influenza;10;FALSE
+15ª RS;SRAG (internados);192026;2026-05-10;Não especificado;27;FALSE
+15ª RS;SRAG (internados);192026;2026-05-10;Outro vírus respiratório;25;FALSE
+15ª RS;SRAG (internados);202026;2026-05-17;Em investigação;3;FALSE
+15ª RS;SRAG (internados);202026;2026-05-17;Influenza;19;FALSE
+15ª RS;SRAG (internados);202026;2026-05-17;Não especificado;19;FALSE
+15ª RS;SRAG (internados);202026;2026-05-17;Outro vírus respiratório;16;FALSE
+15ª RS;SRAG (internados);212026;2026-05-24;Em investigação;1;FALSE
+15ª RS;SRAG (internados);212026;2026-05-24;Influenza;27;FALSE
+15ª RS;SRAG (internados);212026;2026-05-24;Não especificado;27;FALSE
+15ª RS;SRAG (internados);212026;2026-05-24;Outro vírus respiratório;20;FALSE
+15ª RS;SRAG (internados);222026;2026-05-31;Influenza;18;FALSE
+15ª RS;SRAG (internados);222026;2026-05-31;Não especificado;16;FALSE
+15ª RS;SRAG (internados);222026;2026-05-31;Outro vírus respiratório;26;FALSE
+15ª RS;SRAG (internados);232026;2026-06-07;Influenza;20;FALSE
+15ª RS;SRAG (internados);232026;2026-06-07;Não especificado;18;FALSE
+15ª RS;SRAG (internados);232026;2026-06-07;Outro vírus respiratório;17;FALSE
+15ª RS;SRAG (internados);242026;2026-06-14;Influenza;28;FALSE
+15ª RS;SRAG (internados);242026;2026-06-14;Não especificado;27;FALSE
+15ª RS;SRAG (internados);242026;2026-06-14;Outro vírus respiratório;14;FALSE
+15ª RS;SRAG (internados);252026;2026-06-21;COVID-19;1;FALSE
+15ª RS;SRAG (internados);252026;2026-06-21;Influenza;18;FALSE
+15ª RS;SRAG (internados);252026;2026-06-21;Não especificado;26;FALSE
+15ª RS;SRAG (internados);252026;2026-06-21;Outro vírus respiratório;16;FALSE
+15ª RS;SRAG (internados);262026;2026-06-28;Em investigação;1;FALSE
+15ª RS;SRAG (internados);262026;2026-06-28;Influenza;11;FALSE
+15ª RS;SRAG (internados);262026;2026-06-28;Não especificado;25;FALSE
+15ª RS;SRAG (internados);262026;2026-06-28;Outro vírus respiratório;23;FALSE
+15ª RS;SRAG (internados);272026;2026-07-05;COVID-19;1;FALSE
+15ª RS;SRAG (internados);272026;2026-07-05;Influenza;24;FALSE
+15ª RS;SRAG (internados);272026;2026-07-05;Não especificado;19;FALSE
+15ª RS;SRAG (internados);272026;2026-07-05;Outro vírus respiratório;23;FALSE
+15ª RS;SRAG (internados);282026;2026-07-12;Influenza;20;FALSE
+15ª RS;SRAG (internados);282026;2026-07-12;Não especificado;20;FALSE
+15ª RS;SRAG (internados);282026;2026-07-12;Outro vírus respiratório;13;FALSE
+15ª RS;SRAG (internados);292026;2026-07-19;Em investigação;1;FALSE
+15ª RS;SRAG (internados);292026;2026-07-19;Influenza;14;FALSE
+15ª RS;SRAG (internados);292026;2026-07-19;Não especificado;21;FALSE
+15ª RS;SRAG (internados);292026;2026-07-19;Outro vírus respiratório;7;FALSE
+15ª RS;SRAG (internados);302026;2026-07-26;COVID-19;1;FALSE
+15ª RS;SRAG (internados);302026;2026-07-26;Em investigação;1;FALSE
+15ª RS;SRAG (internados);302026;2026-07-26;Influenza;12;FALSE
+15ª RS;SRAG (internados);302026;2026-07-26;Não especificado;16;FALSE
+15ª RS;SRAG (internados);302026;2026-07-26;Outro vírus respiratório;12;FALSE
+15ª RS;SRAG (internados);312026;2026-08-02;COVID-19;1;FALSE
+15ª RS;SRAG (internados);312026;2026-08-02;Influenza;8;FALSE
+15ª RS;SRAG (internados);312026;2026-08-02;Não especificado;14;FALSE
+15ª RS;SRAG (internados);312026;2026-08-02;Outro vírus respiratório;8;FALSE
+15ª RS;SRAG (internados);322026;2026-08-09;Influenza;6;FALSE
+15ª RS;SRAG (internados);322026;2026-08-09;Não especificado;18;FALSE
+15ª RS;SRAG (internados);322026;2026-08-09;Outro vírus respiratório;14;FALSE
+15ª RS;SRAG (internados);332026;2026-08-16;Em investigação;3;FALSE
+15ª RS;SRAG (internados);332026;2026-08-16;Influenza;17;FALSE
+15ª RS;SRAG (internados);332026;2026-08-16;Não especificado;9;FALSE
+15ª RS;SRAG (internados);332026;2026-08-16;Outro vírus respiratório;8;FALSE
+15ª RS;SRAG (internados);342026;2026-08-23;Em investigação;4;FALSE
+15ª RS;SRAG (internados);342026;2026-08-23;Influenza;12;FALSE
+15ª RS;SRAG (internados);342026;2026-08-23;Não especificado;11;FALSE
+15ª RS;SRAG (internados);342026;2026-08-23;Outro agente etiológico;1;FALSE
+15ª RS;SRAG (internados);342026;2026-08-23;Outro vírus respiratório;9;FALSE
+15ª RS;SRAG (internados);352026;2026-08-30;Em investigação;4;FALSE
+15ª RS;SRAG (internados);352026;2026-08-30;Influenza;11;FALSE
+15ª RS;SRAG (internados);352026;2026-08-30;Não especificado;8;FALSE
+15ª RS;SRAG (internados);352026;2026-08-30;Outro vírus respiratório;1;FALSE
+15ª RS;SRAG (internados);362026;2026-09-06;Em investigação;10;FALSE
+15ª RS;SRAG (internados);362026;2026-09-06;Influenza;4;FALSE
+15ª RS;SRAG (internados);362026;2026-09-06;Não especificado;5;FALSE
+15ª RS;SRAG (internados);372026;2026-09-13;Em investigação;11;TRUE
+15ª RS;SRAG (internados);372026;2026-09-13;Não especificado;4;TRUE
+15ª RS;SRAG (internados);372026;2026-09-13;Outro agente etiológico;1;TRUE
+15ª RS;SRAG (internados);372026;2026-09-13;Outro vírus respiratório;3;TRUE
+15ª RS;SRAG (internados);382026;2026-09-20;Em investigação;9;TRUE
+15ª RS;Sentinela (amostras de SG);012026;2026-01-04;COVID-19;1;FALSE
+15ª RS;Sentinela (amostras de SG);012026;2026-01-04;Influenza;2;FALSE
+15ª RS;Sentinela (amostras de SG);012026;2026-01-04;Não especificado;6;FALSE
+15ª RS;Sentinela (amostras de SG);012026;2026-01-04;Outro vírus respiratório;2;FALSE
+15ª RS;Sentinela (amostras de SG);022026;2026-01-11;COVID-19;2;FALSE
+15ª RS;Sentinela (amostras de SG);022026;2026-01-11;Não especificado;6;FALSE
+15ª RS;Sentinela (amostras de SG);022026;2026-01-11;Outro vírus respiratório;3;FALSE
+15ª RS;Sentinela (amostras de SG);032026;2026-01-18;COVID-19;1;FALSE
+15ª RS;Sentinela (amostras de SG);032026;2026-01-18;Influenza;1;FALSE
+15ª RS;Sentinela (amostras de SG);032026;2026-01-18;Não especificado;6;FALSE
+15ª RS;Sentinela (amostras de SG);032026;2026-01-18;Outro vírus respiratório;2;FALSE
+15ª RS;Sentinela (amostras de SG);042026;2026-01-25;COVID-19;2;FALSE
+15ª RS;Sentinela (amostras de SG);042026;2026-01-25;Influenza;1;FALSE
+15ª RS;Sentinela (amostras de SG);042026;2026-01-25;Não especificado;5;FALSE
+15ª RS;Sentinela (amostras de SG);042026;2026-01-25;Outro vírus respiratório;3;FALSE
+15ª RS;Sentinela (amostras de SG);052026;2026-02-01;Influenza;1;FALSE
+15ª RS;Sentinela (amostras de SG);052026;2026-02-01;Não especificado;3;FALSE
+15ª RS;Sentinela (amostras de SG);052026;2026-02-01;Outro vírus respiratório;2;FALSE
+15ª RS;Sentinela (amostras de SG);062026;2026-02-08;COVID-19;3;FALSE
+15ª RS;Sentinela (amostras de SG);062026;2026-02-08;Influenza;1;FALSE
+15ª RS;Sentinela (amostras de SG);062026;2026-02-08;Não especificado;4;FALSE
+15ª RS;Sentinela (amostras de SG);062026;2026-02-08;Outro vírus respiratório;1;FALSE
+15ª RS;Sentinela (amostras de SG);072026;2026-02-15;COVID-19;1;FALSE
+15ª RS;Sentinela (amostras de SG);072026;2026-02-15;Influenza;1;FALSE
+15ª RS;Sentinela (amostras de SG);072026;2026-02-15;Não especificado;2;FALSE
+15ª RS;Sentinela (amostras de SG);072026;2026-02-15;Outro vírus respiratório;9;FALSE
+15ª RS;Sentinela (amostras de SG);082026;2026-02-22;COVID-19;1;FALSE
+15ª RS;Sentinela (amostras de SG);082026;2026-02-22;Influenza;2;FALSE
+15ª RS;Sentinela (amostras de SG);082026;2026-02-22;Não especificado;4;FALSE
+15ª RS;Sentinela (amostras de SG);082026;2026-02-22;Outro vírus respiratório;2;FALSE
+15ª RS;Sentinela (amostras de SG);092026;2026-03-01;COVID-19;1;FALSE
+15ª RS;Sentinela (amostras de SG);092026;2026-03-01;Influenza;3;FALSE
+15ª RS;Sentinela (amostras de SG);092026;2026-03-01;Não especificado;3;FALSE
+15ª RS;Sentinela (amostras de SG);092026;2026-03-01;Outro vírus respiratório;4;FALSE
+15ª RS;Sentinela (amostras de SG);102026;2026-03-08;COVID-19;1;FALSE
+15ª RS;Sentinela (amostras de SG);102026;2026-03-08;Influenza;1;FALSE
+15ª RS;Sentinela (amostras de SG);102026;2026-03-08;Não especificado;4;FALSE
+15ª RS;Sentinela (amostras de SG);102026;2026-03-08;Outro vírus respiratório;3;FALSE
+15ª RS;Sentinela (amostras de SG);112026;2026-03-15;Influenza;4;FALSE
+15ª RS;Sentinela (amostras de SG);112026;2026-03-15;Não especificado;1;FALSE
+15ª RS;Sentinela (amostras de SG);112026;2026-03-15;Outro vírus respiratório;3;FALSE
+15ª RS;Sentinela (amostras de SG);122026;2026-03-22;Influenza;2;FALSE
+15ª RS;Sentinela (amostras de SG);122026;2026-03-22;Não especificado;7;FALSE
+15ª RS;Sentinela (amostras de SG);122026;2026-03-22;Outro vírus respiratório;3;FALSE
+15ª RS;Sentinela (amostras de SG);132026;2026-03-29;COVID-19;1;FALSE
+15ª RS;Sentinela (amostras de SG);132026;2026-03-29;Influenza;2;FALSE
+15ª RS;Sentinela (amostras de SG);132026;2026-03-29;Não especificado;5;FALSE
+15ª RS;Sentinela (amostras de SG);132026;2026-03-29;Outro vírus respiratório;2;FALSE
+15ª RS;Sentinela (amostras de SG);142026;2026-04-05;Influenza;1;FALSE
+15ª RS;Sentinela (amostras de SG);142026;2026-04-05;Não especificado;7;FALSE
+15ª RS;Sentinela (amostras de SG);142026;2026-04-05;Outro vírus respiratório;1;FALSE
+15ª RS;Sentinela (amostras de SG);152026;2026-04-12;Influenza;2;FALSE
+15ª RS;Sentinela (amostras de SG);152026;2026-04-12;Não especificado;6;FALSE
+15ª RS;Sentinela (amostras de SG);152026;2026-04-12;Outro vírus respiratório;1;FALSE
+15ª RS;Sentinela (amostras de SG);162026;2026-04-19;Influenza;3;FALSE
+15ª RS;Sentinela (amostras de SG);162026;2026-04-19;Não especificado;2;FALSE
+15ª RS;Sentinela (amostras de SG);162026;2026-04-19;Outro vírus respiratório;2;FALSE
+15ª RS;Sentinela (amostras de SG);172026;2026-04-26;Influenza;4;FALSE
+15ª RS;Sentinela (amostras de SG);172026;2026-04-26;Não especificado;5;FALSE
+15ª RS;Sentinela (amostras de SG);172026;2026-04-26;Outro vírus respiratório;1;FALSE
+15ª RS;Sentinela (amostras de SG);182026;2026-05-03;Influenza;5;FALSE
+15ª RS;Sentinela (amostras de SG);182026;2026-05-03;Não especificado;6;FALSE
+15ª RS;Sentinela (amostras de SG);182026;2026-05-03;Outro vírus respiratório;1;FALSE
+15ª RS;Sentinela (amostras de SG);192026;2026-05-10;Influenza;3;FALSE
+15ª RS;Sentinela (amostras de SG);192026;2026-05-10;Não especificado;6;FALSE
+15ª RS;Sentinela (amostras de SG);202026;2026-05-17;Influenza;4;FALSE
+15ª RS;Sentinela (amostras de SG);202026;2026-05-17;Não especificado;7;FALSE
+15ª RS;Sentinela (amostras de SG);202026;2026-05-17;Outro vírus respiratório;1;FALSE
+15ª RS;Sentinela (amostras de SG);212026;2026-05-24;Influenza;1;FALSE
+15ª RS;Sentinela (amostras de SG);212026;2026-05-24;Não especificado;4;FALSE
+15ª RS;Sentinela (amostras de SG);212026;2026-05-24;Outro vírus respiratório;3;FALSE
+15ª RS;Sentinela (amostras de SG);222026;2026-05-31;Influenza;4;FALSE
+15ª RS;Sentinela (amostras de SG);222026;2026-05-31;Não especificado;4;FALSE
+15ª RS;Sentinela (amostras de SG);222026;2026-05-31;Outro vírus respiratório;1;FALSE
+15ª RS;Sentinela (amostras de SG);232026;2026-06-07;Influenza;3;FALSE
+15ª RS;Sentinela (amostras de SG);232026;2026-06-07;Não especificado;1;FALSE
+15ª RS;Sentinela (amostras de SG);232026;2026-06-07;Outro vírus respiratório;7;FALSE
+15ª RS;Sentinela (amostras de SG);242026;2026-06-14;Influenza;1;FALSE
+15ª RS;Sentinela (amostras de SG);242026;2026-06-14;Não especificado;4;FALSE
+15ª RS;Sentinela (amostras de SG);242026;2026-06-14;Outro vírus respiratório;3;FALSE
+15ª RS;Sentinela (amostras de SG);252026;2026-06-21;Influenza;5;FALSE
+15ª RS;Sentinela (amostras de SG);252026;2026-06-21;Não especificado;5;FALSE
+15ª RS;Sentinela (amostras de SG);252026;2026-06-21;Outro vírus respiratório;2;FALSE
+15ª RS;Sentinela (amostras de SG);262026;2026-06-28;Influenza;3;FALSE
+15ª RS;Sentinela (amostras de SG);262026;2026-06-28;Não especificado;9;FALSE
+15ª RS;Sentinela (amostras de SG);262026;2026-06-28;Outro vírus respiratório;1;FALSE
+15ª RS;Sentinela (amostras de SG);272026;2026-07-05;Influenza;3;FALSE
+15ª RS;Sentinela (amostras de SG);272026;2026-07-05;Não especificado;2;FALSE
+15ª RS;Sentinela (amostras de SG);272026;2026-07-05;Outro vírus respiratório;2;FALSE
+15ª RS;Sentinela (amostras de SG);282026;2026-07-12;Influenza;2;FALSE
+15ª RS;Sentinela (amostras de SG);282026;2026-07-12;Não especificado;4;FALSE
+15ª RS;Sentinela (amostras de SG);282026;2026-07-12;Outro vírus respiratório;3;FALSE
+15ª RS;Sentinela (amostras de SG);292026;2026-07-19;Influenza;1;FALSE
+15ª RS;Sentinela (amostras de SG);292026;2026-07-19;Não especificado;6;FALSE
+15ª RS;Sentinela (amostras de SG);292026;2026-07-19;Outro vírus respiratório;1;FALSE
+15ª RS;Sentinela (amostras de SG);302026;2026-07-26;Influenza;2;FALSE
+15ª RS;Sentinela (amostras de SG);302026;2026-07-26;Não especificado;5;FALSE
+15ª RS;Sentinela (amostras de SG);302026;2026-07-26;Outro vírus respiratório;2;FALSE
+15ª RS;Sentinela (amostras de SG);312026;2026-08-02;Não especificado;7;FALSE
+15ª RS;Sentinela (amostras de SG);312026;2026-08-02;Outro vírus respiratório;4;FALSE
+15ª RS;Sentinela (amostras de SG);322026;2026-08-09;Não especificado;5;FALSE
+15ª RS;Sentinela (amostras de SG);322026;2026-08-09;Outro vírus respiratório;3;FALSE
+15ª RS;Sentinela (amostras de SG);332026;2026-08-16;Não especificado;3;FALSE
+15ª RS;Sentinela (amostras de SG);332026;2026-08-16;Outro vírus respiratório;1;FALSE
+15ª RS;Sentinela (amostras de SG);342026;2026-08-23;Não especificado;6;FALSE
+15ª RS;Sentinela (amostras de SG);342026;2026-08-23;Outro vírus respiratório;3;FALSE
+15ª RS;Sentinela (amostras de SG);352026;2026-08-30;Não especificado;2;FALSE
+15ª RS;Sentinela (amostras de SG);352026;2026-08-30;Outro vírus respiratório;2;FALSE
+Maringá + Sarandi;SRAG (internados);012026;2026-01-04;COVID-19;2;FALSE
+Maringá + Sarandi;SRAG (internados);012026;2026-01-04;Influenza;4;FALSE
+Maringá + Sarandi;SRAG (internados);012026;2026-01-04;Não especificado;8;FALSE
+Maringá + Sarandi;SRAG (internados);012026;2026-01-04;Outro vírus respiratório;5;FALSE
+Maringá + Sarandi;SRAG (internados);022026;2026-01-11;Influenza;1;FALSE
+Maringá + Sarandi;SRAG (internados);022026;2026-01-11;Não especificado;9;FALSE
+Maringá + Sarandi;SRAG (internados);022026;2026-01-11;Outro agente etiológico;1;FALSE
+Maringá + Sarandi;SRAG (internados);032026;2026-01-18;COVID-19;1;FALSE
+Maringá + Sarandi;SRAG (internados);032026;2026-01-18;Influenza;4;FALSE
+Maringá + Sarandi;SRAG (internados);032026;2026-01-18;Não especificado;7;FALSE
+Maringá + Sarandi;SRAG (internados);042026;2026-01-25;COVID-19;1;FALSE
+Maringá + Sarandi;SRAG (internados);042026;2026-01-25;Influenza;3;FALSE
+Maringá + Sarandi;SRAG (internados);042026;2026-01-25;Não especificado;4;FALSE
+Maringá + Sarandi;SRAG (internados);042026;2026-01-25;Outro vírus respiratório;2;FALSE
+Maringá + Sarandi;SRAG (internados);052026;2026-02-01;COVID-19;2;FALSE
+Maringá + Sarandi;SRAG (internados);052026;2026-02-01;Influenza;4;FALSE
+Maringá + Sarandi;SRAG (internados);052026;2026-02-01;Não especificado;9;FALSE
+Maringá + Sarandi;SRAG (internados);052026;2026-02-01;Outro vírus respiratório;2;FALSE
+Maringá + Sarandi;SRAG (internados);062026;2026-02-08;COVID-19;1;FALSE
+Maringá + Sarandi;SRAG (internados);062026;2026-02-08;Influenza;2;FALSE
+Maringá + Sarandi;SRAG (internados);062026;2026-02-08;Não especificado;7;FALSE
+Maringá + Sarandi;SRAG (internados);062026;2026-02-08;Outro vírus respiratório;3;FALSE
+Maringá + Sarandi;SRAG (internados);072026;2026-02-15;COVID-19;1;FALSE
+Maringá + Sarandi;SRAG (internados);072026;2026-02-15;Influenza;3;FALSE
+Maringá + Sarandi;SRAG (internados);072026;2026-02-15;Não especificado;7;FALSE
+Maringá + Sarandi;SRAG (internados);072026;2026-02-15;Outro vírus respiratório;7;FALSE
+Maringá + Sarandi;SRAG (internados);082026;2026-02-22;COVID-19;2;FALSE
+Maringá + Sarandi;SRAG (internados);082026;2026-02-22;Influenza;3;FALSE
+Maringá + Sarandi;SRAG (internados);082026;2026-02-22;Não especificado;11;FALSE
+Maringá + Sarandi;SRAG (internados);082026;2026-02-22;Outro vírus respiratório;4;FALSE
+Maringá + Sarandi;SRAG (internados);092026;2026-03-01;COVID-19;3;FALSE
+Maringá + Sarandi;SRAG (internados);092026;2026-03-01;Influenza;6;FALSE
+Maringá + Sarandi;SRAG (internados);092026;2026-03-01;Não especificado;8;FALSE
+Maringá + Sarandi;SRAG (internados);092026;2026-03-01;Outro vírus respiratório;8;FALSE
+Maringá + Sarandi;SRAG (internados);102026;2026-03-08;COVID-19;1;FALSE
+Maringá + Sarandi;SRAG (internados);102026;2026-03-08;Influenza;4;FALSE
+Maringá + Sarandi;SRAG (internados);102026;2026-03-08;Não especificado;13;FALSE
+Maringá + Sarandi;SRAG (internados);102026;2026-03-08;Outro vírus respiratório;5;FALSE
+Maringá + Sarandi;SRAG (internados);112026;2026-03-15;COVID-19;1;FALSE
+Maringá + Sarandi;SRAG (internados);112026;2026-03-15;Influenza;6;FALSE
+Maringá + Sarandi;SRAG (internados);112026;2026-03-15;Não especificado;10;FALSE
+Maringá + Sarandi;SRAG (internados);112026;2026-03-15;Outro vírus respiratório;7;FALSE
+Maringá + Sarandi;SRAG (internados);122026;2026-03-22;COVID-19;1;FALSE
+Maringá + Sarandi;SRAG (internados);122026;2026-03-22;Influenza;6;FALSE
+Maringá + Sarandi;SRAG (internados);122026;2026-03-22;Não especificado;6;FALSE
+Maringá + Sarandi;SRAG (internados);122026;2026-03-22;Outro vírus respiratório;2;FALSE
+Maringá + Sarandi;SRAG (internados);132026;2026-03-29;Em investigação;1;FALSE
+Maringá + Sarandi;SRAG (internados);132026;2026-03-29;Influenza;3;FALSE
+Maringá + Sarandi;SRAG (internados);132026;2026-03-29;Não especificado;4;FALSE
+Maringá + Sarandi;SRAG (internados);132026;2026-03-29;Outro vírus respiratório;4;FALSE
+Maringá + Sarandi;SRAG (internados);142026;2026-04-05;Influenza;8;FALSE
+Maringá + Sarandi;SRAG (internados);142026;2026-04-05;Não especificado;10;FALSE
+Maringá + Sarandi;SRAG (internados);142026;2026-04-05;Outro vírus respiratório;7;FALSE
+Maringá + Sarandi;SRAG (internados);152026;2026-04-12;COVID-19;2;FALSE
+Maringá + Sarandi;SRAG (internados);152026;2026-04-12;Influenza;12;FALSE
+Maringá + Sarandi;SRAG (internados);152026;2026-04-12;Não especificado;9;FALSE
+Maringá + Sarandi;SRAG (internados);152026;2026-04-12;Outro vírus respiratório;10;FALSE
+Maringá + Sarandi;SRAG (internados);162026;2026-04-19;Influenza;10;FALSE
+Maringá + Sarandi;SRAG (internados);162026;2026-04-19;Não especificado;7;FALSE
+Maringá + Sarandi;SRAG (internados);162026;2026-04-19;Outro vírus respiratório;8;FALSE
+Maringá + Sarandi;SRAG (internados);172026;2026-04-26;COVID-19;1;FALSE
+Maringá + Sarandi;SRAG (internados);172026;2026-04-26;Influenza;10;FALSE
+Maringá + Sarandi;SRAG (internados);172026;2026-04-26;Não especificado;8;FALSE
+Maringá + Sarandi;SRAG (internados);172026;2026-04-26;Outro vírus respiratório;14;FALSE
+Maringá + Sarandi;SRAG (internados);182026;2026-05-03;Influenza;6;FALSE
+Maringá + Sarandi;SRAG (internados);182026;2026-05-03;Não especificado;6;FALSE
+Maringá + Sarandi;SRAG (internados);182026;2026-05-03;Outro vírus respiratório;27;FALSE
+Maringá + Sarandi;SRAG (internados);192026;2026-05-10;COVID-19;1;FALSE
+Maringá + Sarandi;SRAG (internados);192026;2026-05-10;Influenza;9;FALSE
+Maringá + Sarandi;SRAG (internados);192026;2026-05-10;Não especificado;15;FALSE
+Maringá + Sarandi;SRAG (internados);192026;2026-05-10;Outro vírus respiratório;18;FALSE
+Maringá + Sarandi;SRAG (internados);202026;2026-05-17;Em investigação;1;FALSE
+Maringá + Sarandi;SRAG (internados);202026;2026-05-17;Influenza;18;FALSE
+Maringá + Sarandi;SRAG (internados);202026;2026-05-17;Não especificado;14;FALSE
+Maringá + Sarandi;SRAG (internados);202026;2026-05-17;Outro vírus respiratório;11;FALSE
+Maringá + Sarandi;SRAG (internados);212026;2026-05-24;Influenza;26;FALSE
+Maringá + Sarandi;SRAG (internados);212026;2026-05-24;Não especificado;18;FALSE
+Maringá + Sarandi;SRAG (internados);212026;2026-05-24;Outro vírus respiratório;13;FALSE
+Maringá + Sarandi;SRAG (internados);222026;2026-05-31;Influenza;17;FALSE
+Maringá + Sarandi;SRAG (internados);222026;2026-05-31;Não especificado;8;FALSE
+Maringá + Sarandi;SRAG (internados);222026;2026-05-31;Outro vírus respiratório;15;FALSE
+Maringá + Sarandi;SRAG (internados);232026;2026-06-07;Influenza;20;FALSE
+Maringá + Sarandi;SRAG (internados);232026;2026-06-07;Não especificado;12;FALSE
+Maringá + Sarandi;SRAG (internados);232026;2026-06-07;Outro vírus respiratório;13;FALSE
+Maringá + Sarandi;SRAG (internados);242026;2026-06-14;Influenza;24;FALSE
+Maringá + Sarandi;SRAG (internados);242026;2026-06-14;Não especificado;19;FALSE
+Maringá + Sarandi;SRAG (internados);242026;2026-06-14;Outro vírus respiratório;9;FALSE
+Maringá + Sarandi;SRAG (internados);252026;2026-06-21;COVID-19;1;FALSE
+Maringá + Sarandi;SRAG (internados);252026;2026-06-21;Influenza;16;FALSE
+Maringá + Sarandi;SRAG (internados);252026;2026-06-21;Não especificado;18;FALSE
+Maringá + Sarandi;SRAG (internados);252026;2026-06-21;Outro vírus respiratório;10;FALSE
+Maringá + Sarandi;SRAG (internados);262026;2026-06-28;Influenza;10;FALSE
+Maringá + Sarandi;SRAG (internados);262026;2026-06-28;Não especificado;16;FALSE
+Maringá + Sarandi;SRAG (internados);262026;2026-06-28;Outro vírus respiratório;16;FALSE
+Maringá + Sarandi;SRAG (internados);272026;2026-07-05;Influenza;21;FALSE
+Maringá + Sarandi;SRAG (internados);272026;2026-07-05;Não especificado;11;FALSE
+Maringá + Sarandi;SRAG (internados);272026;2026-07-05;Outro vírus respiratório;15;FALSE
+Maringá + Sarandi;SRAG (internados);282026;2026-07-12;Influenza;19;FALSE
+Maringá + Sarandi;SRAG (internados);282026;2026-07-12;Não especificado;12;FALSE
+Maringá + Sarandi;SRAG (internados);282026;2026-07-12;Outro vírus respiratório;10;FALSE
+Maringá + Sarandi;SRAG (internados);292026;2026-07-19;Influenza;12;FALSE
+Maringá + Sarandi;SRAG (internados);292026;2026-07-19;Não especificado;15;FALSE
+Maringá + Sarandi;SRAG (internados);292026;2026-07-19;Outro vírus respiratório;4;FALSE
+Maringá + Sarandi;SRAG (internados);302026;2026-07-26;COVID-19;1;FALSE
+Maringá + Sarandi;SRAG (internados);302026;2026-07-26;Influenza;11;FALSE
+Maringá + Sarandi;SRAG (internados);302026;2026-07-26;Não especificado;13;FALSE
+Maringá + Sarandi;SRAG (internados);302026;2026-07-26;Outro vírus respiratório;11;FALSE
+Maringá + Sarandi;SRAG (internados);312026;2026-08-02;COVID-19;1;FALSE
+Maringá + Sarandi;SRAG (internados);312026;2026-08-02;Influenza;8;FALSE
+Maringá + Sarandi;SRAG (internados);312026;2026-08-02;Não especificado;9;FALSE
+Maringá + Sarandi;SRAG (internados);312026;2026-08-02;Outro vírus respiratório;6;FALSE
+Maringá + Sarandi;SRAG (internados);322026;2026-08-09;Influenza;5;FALSE
+Maringá + Sarandi;SRAG (internados);322026;2026-08-09;Não especificado;10;FALSE
+Maringá + Sarandi;SRAG (internados);322026;2026-08-09;Outro vírus respiratório;5;FALSE
+Maringá + Sarandi;SRAG (internados);332026;2026-08-16;Em investigação;1;FALSE
+Maringá + Sarandi;SRAG (internados);332026;2026-08-16;Influenza;17;FALSE
+Maringá + Sarandi;SRAG (internados);332026;2026-08-16;Não especificado;5;FALSE
+Maringá + Sarandi;SRAG (internados);332026;2026-08-16;Outro vírus respiratório;7;FALSE
+Maringá + Sarandi;SRAG (internados);342026;2026-08-23;Em investigação;1;FALSE
+Maringá + Sarandi;SRAG (internados);342026;2026-08-23;Influenza;12;FALSE
+Maringá + Sarandi;SRAG (internados);342026;2026-08-23;Não especificado;10;FALSE
+Maringá + Sarandi;SRAG (internados);342026;2026-08-23;Outro agente etiológico;1;FALSE
+Maringá + Sarandi;SRAG (internados);342026;2026-08-23;Outro vírus respiratório;5;FALSE
+Maringá + Sarandi;SRAG (internados);352026;2026-08-30;Em investigação;3;FALSE
+Maringá + Sarandi;SRAG (internados);352026;2026-08-30;Influenza;11;FALSE
+Maringá + Sarandi;SRAG (internados);352026;2026-08-30;Não especificado;6;FALSE
+Maringá + Sarandi;SRAG (internados);352026;2026-08-30;Outro vírus respiratório;1;FALSE
+Maringá + Sarandi;SRAG (internados);362026;2026-09-06;Em investigação;8;FALSE
+Maringá + Sarandi;SRAG (internados);362026;2026-09-06;Influenza;4;FALSE
+Maringá + Sarandi;SRAG (internados);362026;2026-09-06;Não especificado;5;FALSE
+Maringá + Sarandi;SRAG (internados);372026;2026-09-13;Em investigação;6;TRUE
+Maringá + Sarandi;SRAG (internados);372026;2026-09-13;Não especificado;4;TRUE
+Maringá + Sarandi;SRAG (internados);372026;2026-09-13;Outro agente etiológico;1;TRUE
+Maringá + Sarandi;SRAG (internados);372026;2026-09-13;Outro vírus respiratório;2;TRUE
+Maringá + Sarandi;SRAG (internados);382026;2026-09-20;Em investigação;6;TRUE
+Maringá + Sarandi;Sentinela (amostras de SG);012026;2026-01-04;COVID-19;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);012026;2026-01-04;Influenza;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);012026;2026-01-04;Não especificado;6;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);012026;2026-01-04;Outro vírus respiratório;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);022026;2026-01-11;COVID-19;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);022026;2026-01-11;Não especificado;6;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);022026;2026-01-11;Outro vírus respiratório;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);032026;2026-01-18;COVID-19;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);032026;2026-01-18;Influenza;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);032026;2026-01-18;Não especificado;6;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);032026;2026-01-18;Outro vírus respiratório;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);042026;2026-01-25;COVID-19;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);042026;2026-01-25;Influenza;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);042026;2026-01-25;Não especificado;5;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);042026;2026-01-25;Outro vírus respiratório;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);052026;2026-02-01;Influenza;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);052026;2026-02-01;Não especificado;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);052026;2026-02-01;Outro vírus respiratório;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);062026;2026-02-08;COVID-19;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);062026;2026-02-08;Influenza;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);062026;2026-02-08;Não especificado;4;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);062026;2026-02-08;Outro vírus respiratório;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);072026;2026-02-15;COVID-19;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);072026;2026-02-15;Influenza;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);072026;2026-02-15;Não especificado;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);072026;2026-02-15;Outro vírus respiratório;9;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);082026;2026-02-22;COVID-19;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);082026;2026-02-22;Influenza;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);082026;2026-02-22;Não especificado;4;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);082026;2026-02-22;Outro vírus respiratório;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);092026;2026-03-01;COVID-19;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);092026;2026-03-01;Influenza;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);092026;2026-03-01;Não especificado;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);092026;2026-03-01;Outro vírus respiratório;4;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);102026;2026-03-08;COVID-19;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);102026;2026-03-08;Influenza;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);102026;2026-03-08;Não especificado;4;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);102026;2026-03-08;Outro vírus respiratório;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);112026;2026-03-15;Influenza;4;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);112026;2026-03-15;Não especificado;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);112026;2026-03-15;Outro vírus respiratório;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);122026;2026-03-22;Influenza;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);122026;2026-03-22;Não especificado;7;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);122026;2026-03-22;Outro vírus respiratório;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);132026;2026-03-29;COVID-19;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);132026;2026-03-29;Influenza;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);132026;2026-03-29;Não especificado;5;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);132026;2026-03-29;Outro vírus respiratório;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);142026;2026-04-05;Influenza;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);142026;2026-04-05;Não especificado;7;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);142026;2026-04-05;Outro vírus respiratório;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);152026;2026-04-12;Influenza;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);152026;2026-04-12;Não especificado;6;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);152026;2026-04-12;Outro vírus respiratório;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);162026;2026-04-19;Influenza;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);162026;2026-04-19;Não especificado;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);162026;2026-04-19;Outro vírus respiratório;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);172026;2026-04-26;Influenza;4;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);172026;2026-04-26;Não especificado;5;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);172026;2026-04-26;Outro vírus respiratório;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);182026;2026-05-03;Influenza;5;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);182026;2026-05-03;Não especificado;6;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);182026;2026-05-03;Outro vírus respiratório;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);192026;2026-05-10;Influenza;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);192026;2026-05-10;Não especificado;6;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);202026;2026-05-17;Influenza;4;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);202026;2026-05-17;Não especificado;7;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);202026;2026-05-17;Outro vírus respiratório;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);212026;2026-05-24;Influenza;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);212026;2026-05-24;Não especificado;4;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);212026;2026-05-24;Outro vírus respiratório;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);222026;2026-05-31;Influenza;4;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);222026;2026-05-31;Não especificado;4;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);222026;2026-05-31;Outro vírus respiratório;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);232026;2026-06-07;Influenza;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);232026;2026-06-07;Não especificado;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);232026;2026-06-07;Outro vírus respiratório;7;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);242026;2026-06-14;Influenza;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);242026;2026-06-14;Não especificado;4;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);242026;2026-06-14;Outro vírus respiratório;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);252026;2026-06-21;Influenza;5;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);252026;2026-06-21;Não especificado;5;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);252026;2026-06-21;Outro vírus respiratório;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);262026;2026-06-28;Influenza;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);262026;2026-06-28;Não especificado;9;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);262026;2026-06-28;Outro vírus respiratório;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);272026;2026-07-05;Influenza;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);272026;2026-07-05;Não especificado;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);272026;2026-07-05;Outro vírus respiratório;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);282026;2026-07-12;Influenza;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);282026;2026-07-12;Não especificado;4;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);282026;2026-07-12;Outro vírus respiratório;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);292026;2026-07-19;Influenza;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);292026;2026-07-19;Não especificado;6;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);292026;2026-07-19;Outro vírus respiratório;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);302026;2026-07-26;Influenza;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);302026;2026-07-26;Não especificado;5;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);302026;2026-07-26;Outro vírus respiratório;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);312026;2026-08-02;Não especificado;7;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);312026;2026-08-02;Outro vírus respiratório;4;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);322026;2026-08-09;Não especificado;5;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);322026;2026-08-09;Outro vírus respiratório;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);332026;2026-08-16;Não especificado;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);332026;2026-08-16;Outro vírus respiratório;1;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);342026;2026-08-23;Não especificado;6;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);342026;2026-08-23;Outro vírus respiratório;3;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);352026;2026-08-30;Não especificado;2;FALSE
+Maringá + Sarandi;Sentinela (amostras de SG);352026;2026-08-30;Outro vírus respiratório;2;FALSE

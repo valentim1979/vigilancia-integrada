@@ -1,0 +1,57 @@
+/* Cor padrão dos painéis da 15ª RS (#0057A3), a mesma do painel da sentinela. */
+:root {
+  --rs-azul: #0057A3;
+}
+
+.navbar {
+  background-color: var(--rs-azul) !important;
+}
+
+/* Só no menu do topo - sem o .navbar, as abas (panel-tabset) ficam brancas. */
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #ffffff !important;
+}
+
+.aviso-dado {
+  background-color: #fff3cd;
+  border-left: 4px solid #e6a817;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  font-size: 0.92rem;
+}
+
+.cartoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.cartao {
+  border: 1px solid #e0e0e0;
+  border-top: 4px solid var(--rs-azul);
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+}
+
+.cartao .rotulo {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.cartao .valor {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--rs-azul);
+  line-height: 1.2;
+}
+
+.cartao .detalhe {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

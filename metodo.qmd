@@ -1,0 +1,41 @@
+---
+title: "Método e fontes"
+---
+
+## Fontes de dados
+
+| Dado | Fonte | Atualização |
+|---|---|---|
+| % de SG nos atendimentos das UPAs sentinelas | Ficha de Agregado Semanal do Sivep-Gripe (export `.dbf`) — `SG_TOTAL` ÷ `TC_TOTAL` das 2 unidades somadas | Manual, a cada export |
+| Vírus nas amostras sentinela | `indicador_12.csv` do painel [Vigilância Sentinela](https://valentim1979.github.io/vigilancia-sentinela/) (classificação final por SE de início dos sintomas, NT nº 9/2025-2026) | Quando o painel sentinela é atualizado |
+| Internações por SRAG | Base de SRAG hospitalizado do SIVEP-Gripe na API [dados.gov.br](https://dados.gov.br), no arquivo baixado pelo painel [Vigilância Universal — SRAG](https://valentim1979.github.io/virus-respiratorios/) | Quando o painel de SRAG baixa a base |
+| Clima diário | [Open-Meteo](https://open-meteo.com/) — Historical Weather API (modelo/reanálise) | A cada execução, até o dia anterior |
+| Qualidade do ar | Open-Meteo — Air Quality API (previsão global CAMS, grade de ~45 km, valores horários resumidos por dia) | A cada execução, até o dia anterior |
+| Municípios e centroides | API de localidades e malhas do IBGE; população estimada 2025 (mesma tabela do painel de SRAG) | Fixo |
+
+## Definições
+
+- **Semana epidemiológica (SE):** domingo a sábado, no padrão do Ministério da Saúde. Para o SRAG e para os vírus da sentinela, conta a SE de **início dos sintomas**; para a % de SG, a SE de atendimento informada na Ficha de Agregado.
+- **Recortes:**
+  - **15ª RS:** SRAG de residentes dos 30 municípios da regional; clima é a média dos 30 municípios ponderada pela população.
+  - **Maringá + Sarandi:** SRAG só de residentes desses 2 municípios, onde ficam as UPAs sentinelas; clima ponderado pela população dos dois.
+  - A sentinela é a mesma nos dois recortes (só há as 2 UPAs).
+- **Positividade viral (sentinela):** amostras com Influenza, COVID-19 ou outro vírus respiratório ÷ total de amostras da SE.
+- **Taxa de internação por SRAG:** internações por SRAG na SE ÷ população do recorte × 100 mil.
+- **SE preliminar (SRAG):** as 3 SE completas antes da data do download da base, que ainda vão receber notificações atrasadas. Aparecem em azul-claro nos gráficos e ficam fora das correlações.
+- **Correlação:** Spearman (não supõe relação linear). Calculada com pelo menos 8 semanas com dado.
+
+## Limitações
+
+- Uma única temporada (2026): poucas semanas para separar o efeito do clima da sazonalidade dos vírus.
+- A sentinela representa 2 UPAs; o SRAG, toda a regional. Elas medem coisas diferentes (procura por atendimento leve x internação).
+- Clima e qualidade do ar são estimativas de modelo, não medições de estação.
+- A sentinela e o SRAG fecham em datas diferentes (ver rodapé da Visão geral).
+
+## Privacidade
+
+Nenhum dado identificável é versionado ou publicado. O script lê a base de SRAG (que já é pública e anonimizada na API) só para contar casos por SE e município de residência, e o cache intermediário fica em `cache/`, fora do git. Só saem para `dados/` e `img/` contagens agregadas por semana.
+
+## Atribuição
+
+Dados meteorológicos e de qualidade do ar: [Open-Meteo.com](https://open-meteo.com/), licença [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). Qualidade do ar baseada em produtos do Copernicus Atmosphere Monitoring Service (CAMS).

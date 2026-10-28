@@ -1,0 +1,54 @@
+---
+title: "Clima e qualidade do ar"
+---
+
+```{r}
+#| label: setup
+source("_comum.R")
+
+rotulo_defasagem <- function(k) {
+  ifelse(k == 0, "Mesma semana",
+         paste0(k, ifelse(k == 1, " semana antes", " semanas antes")))
+}
+
+clima_vars <- rotulos_variaveis[c("temp_media", "temp_min", "temp_max", "umidade_media",
+                                  "precipitacao_mm", "pm2_5", "pm10", "ozonio", "co")]
+
+tabelas_recorte <- function(nome_recorte) {
+  if (is.null(correlacoes)) return(list(aviso_sem_dado()))
+  purrr::map(names(rotulos_desfechos), function(d) {
+    correlacoes |>
+      filter(tipo == "Clima x desfecho", recorte == nome_recorte, desfecho == d) |>
+      tabela_correlacao(clima_vars, rotulo_defasagem) |>
+      gt::tab_header(title = rotulos_desfechos[[d]])
+  })
+}
+```
+
+Correlação de Spearman entre cada variável de clima ou qualidade do ar — na mesma semana ou de 1 a 3 semanas **antes** — e os três indicadores das vigilâncias. Cor azul: quando a variável sobe, o indicador cai; vermelho: sobem juntos. Em **negrito**, p < 0,05.
+
+::: {.aviso-dado}
+**Leitura exploratória.** Correlação não indica causa. É uma única temporada (~40 SE), sem controle da sazonalidade. A forte relação com a temperatura em **ambas** as vigilâncias provavelmente reflete em boa parte a sazonalidade dos vírus respiratórios no inverno, e não só o efeito direto do frio. [Inferência] O mesmo vale para ozônio (mais baixo no inverno) e CO (mais alto no inverno).
+
+**Qualidade do ar é dado de modelo**, não de estação: previsão global CAMS com grade de cerca de 45 km. Vários municípios da 15ª RS caem na mesma célula da grade.
+:::
+
+::: {.panel-tabset}
+
+### 15ª RS
+
+```{r}
+#| label: clima-rs
+htmltools::tagList(tabelas_recorte("15ª RS"))
+```
+
+### Maringá + Sarandi
+
+```{r}
+#| label: clima-ms
+htmltools::tagList(tabelas_recorte("Maringá + Sarandi"))
+```
+
+:::
+
+[Baixar todas as correlações, com nº de semanas e valor de p (CSV separado por `;`)](dados/correlacoes.csv)

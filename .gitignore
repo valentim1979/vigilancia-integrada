@@ -1,0 +1,22 @@
+# Cache com registros de SRAG (uma linha por caso) - nunca versionar
+cache/
+
+# Bases brutas
+*.dbf
+*.rds
+
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+
+# Quarto
+/.quarto/
+*_files/
+*.knit.md
+
+# Sistema / ferramentas locais
+.DS_Store
+.claude/
+
+**/*.quarto_ipynb

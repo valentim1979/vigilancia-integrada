@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "vigilancias.html",
+    "href": "vigilancias.html",
+    "title": "Sentinela x SRAG",
+    "section": "",
+    "text": "Correlação de Spearman entre o indicador da sentinela numa semana e a taxa de internação por SRAG na mesma semana ou de 1 a 4 semanas depois. Se a correlação for maior com algumas semanas de antecedência, a sentinela estaria “avisando” antes do aumento de internações.\nValores de rho vão de −1 a +1; perto de 0, sem relação. Em negrito, p &lt; 0,05. SE preliminares do SRAG ficam de fora.\n\n15ª RSMaringá + Sarandi\n\n\n\n\n\n\n\n\n\n\n\nMesma semana\n1 semana antes\n2 semanas antes\n3 semanas antes\n4 semanas antes\n\n\n\n\n% de SG nos atendimentos (sentinela)\n0,83\n0,83\n0,72\n0,63\n0,54\n\n\nPositividade viral das amostras (sentinela)\n−0,03\n0,01\n0,10\n0,05\n0,01\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMesma semana\n1 semana antes\n2 semanas antes\n3 semanas antes\n4 semanas antes\n\n\n\n\n% de SG nos atendimentos (sentinela)\n0,86\n0,86\n0,77\n0,65\n0,57\n\n\nPositividade viral das amostras (sentinela)\n0,02\n0,00\n0,07\n0,07\n−0,08\n\n\n\n\n\n\n\n\n\n\n\nComo ler. As duas vigilâncias sobem e descem juntas na temporada, então a correlação na mesma semana já é alta. [Inferência] Uma correlação parecida com 1 semana de antecedência não prova que a sentinela “chega antes”: em uma única temporada, séries que sobem e descem devagar ficam correlacionadas em várias defasagens. Para afirmar antecipação seria preciso mais temporadas.\nA positividade viral da sentinela vem de cerca de 10 amostras por semana (5 por unidade), então oscila muito de uma semana para outra — o que tende a enfraquecer qualquer correlação."
+  },
+  {
+    "objectID": "vigilancias.html#a-sentinela-antecipa-as-internações",
+    "href": "vigilancias.html#a-sentinela-antecipa-as-internações",
+    "title": "Sentinela x SRAG",
+    "section": "",
+    "text": "Correlação de Spearman entre o indicador da sentinela numa semana e a taxa de internação por SRAG na mesma semana ou de 1 a 4 semanas depois. Se a correlação for maior com algumas semanas de antecedência, a sentinela estaria “avisando” antes do aumento de internações.\nValores de rho vão de −1 a +1; perto de 0, sem relação. Em negrito, p &lt; 0,05. SE preliminares do SRAG ficam de fora.\n\n15ª RSMaringá + Sarandi\n\n\n\n\n\n\n\n\n\n\n\nMesma semana\n1 semana antes\n2 semanas antes\n3 semanas antes\n4 semanas antes\n\n\n\n\n% de SG nos atendimentos (sentinela)\n0,83\n0,83\n0,72\n0,63\n0,54\n\n\nPositividade viral das amostras (sentinela)\n−0,03\n0,01\n0,10\n0,05\n0,01\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMesma semana\n1 semana antes\n2 semanas antes\n3 semanas antes\n4 semanas antes\n\n\n\n\n% de SG nos atendimentos (sentinela)\n0,86\n0,86\n0,77\n0,65\n0,57\n\n\nPositividade viral das amostras (sentinela)\n0,02\n0,00\n0,07\n0,07\n−0,08\n\n\n\n\n\n\n\n\n\n\n\nComo ler. As duas vigilâncias sobem e descem juntas na temporada, então a correlação na mesma semana já é alta. [Inferência] Uma correlação parecida com 1 semana de antecedência não prova que a sentinela “chega antes”: em uma única temporada, séries que sobem e descem devagar ficam correlacionadas em várias defasagens. Para afirmar antecipação seria preciso mais temporadas.\nA positividade viral da sentinela vem de cerca de 10 amostras por semana (5 por unidade), então oscila muito de uma semana para outra — o que tende a enfraquecer qualquer correlação."
+  },
+  {
+    "objectID": "vigilancias.html#vírus-identificados-nas-duas-vigilâncias",
+    "href": "vigilancias.html#vírus-identificados-nas-duas-vigilâncias",
+    "title": "Sentinela x SRAG",
+    "section": "Vírus identificados nas duas vigilâncias",
+    "text": "Vírus identificados nas duas vigilâncias\nSentinela: classificação final das amostras de SG das 2 UPAs (Indicador 12 da NT9; Influenza A e B somadas). SRAG: classificação final dos casos internados residentes na 15ª RS. As últimas semanas do SRAG ainda têm muitos casos “em investigação” (aguardando resultado de exame)."
+  },
+  {
+    "objectID": "vigilancias.html#série-semanal-15ª-rs",
+    "href": "vigilancias.html#série-semanal-15ª-rs",
+    "title": "Sentinela x SRAG",
+    "section": "Série semanal — 15ª RS",
+    "text": "Série semanal — 15ª RS\n\n\n\n\n\n\n\n\n\nBaixar a série completa (CSV separado por ;) · Vírus por semana"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Vigilância Integrada de Vírus Respiratórios — 15ª RS",
+    "section": "",
+    "text": "Este painel coloca lado a lado, por semana epidemiológica (SE), as duas vigilâncias de vírus respiratórios da 15ª Regional de Saúde de Maringá e as condições de clima e qualidade do ar da região."
+  },
+  {
+    "objectID": "index.html#linha-do-tempo",
+    "href": "index.html#linha-do-tempo",
+    "title": "Vigilância Integrada de Vírus Respiratórios — 15ª RS",
+    "section": "Linha do tempo",
+    "text": "Linha do tempo\n\n15ª RSMaringá + Sarandi\n\n\nSRAG de residentes dos 30 municípios; clima médio da região, ponderado pela população.\n\n\n\nSRAG só de residentes dos 2 municípios onde ficam as UPAs sentinelas — o recorte mais comparável com a sentinela.\n\n\n\n\nPainel gerado em 28/10/2026. SRAG: arquivo da API baixado em 03/10/2026. Sentinela: % de SG até a SE 41/2026; positividade viral até a SE 35/2026."
+  },
+  {
+    "objectID": "clima.html",
+    "href": "clima.html",
+    "title": "Clima e qualidade do ar",
+    "section": "",
+    "text": "Correlação de Spearman entre cada variável de clima ou qualidade do ar — na mesma semana ou de 1 a 3 semanas antes — e os três indicadores das vigilâncias. Cor azul: quando a variável sobe, o indicador cai; vermelho: sobem juntos. Em negrito, p &lt; 0,05.\n\nLeitura exploratória. Correlação não indica causa. É uma única temporada (~40 SE), sem controle da sazonalidade. A forte relação com a temperatura em ambas as vigilâncias provavelmente reflete em boa parte a sazonalidade dos vírus respiratórios no inverno, e não só o efeito direto do frio. [Inferência] O mesmo vale para ozônio (mais baixo no inverno) e CO (mais alto no inverno).\nQualidade do ar é dado de modelo, não de estação: previsão global CAMS com grade de cerca de 45 km. Vários municípios da 15ª RS caem na mesma célula da grade.\n\n\n15ª RSMaringá + Sarandi\n\n\n\n\n\n\n\n\n\n\n% de SG nos atendimentos (sentinela)\n\n\n\nMesma semana\n1 semana antes\n2 semanas antes\n3 semanas antes\n\n\n\n\nTemperatura média (°C)\n−0,88\n−0,82\n−0,81\n−0,71\n\n\nTemperatura mínima da semana (°C)\n−0,79\n−0,74\n−0,71\n−0,65\n\n\nTemperatura máxima da semana (°C)\n−0,77\n−0,73\n−0,70\n−0,55\n\n\nUmidade relativa média (%)\n0,50\n0,44\n0,48\n0,39\n\n\nPrecipitação na semana (mm)\n−0,05\n−0,12\n−0,03\n−0,02\n\n\nMP2,5 médio (µg/m³)\n0,04\n0,04\n−0,14\n−0,10\n\n\nMP10 médio (µg/m³)\n0,05\n0,04\n−0,14\n−0,11\n\n\nOzônio médio (µg/m³)\n−0,70\n−0,64\n−0,69\n−0,57\n\n\nCO médio (µg/m³)\n0,46\n0,46\n0,40\n0,40\n\n\n\n\n\n\n\n\n\n\n\nPositividade viral das amostras (sentinela)\n\n\n\nMesma semana\n1 semana antes\n2 semanas antes\n3 semanas antes\n\n\n\n\nTemperatura média (°C)\n0,17\n0,06\n0,10\n−0,04\n\n\nTemperatura mínima da semana (°C)\n0,19\n0,24\n0,08\n0,01\n\n\nTemperatura máxima da semana (°C)\n0,08\n−0,02\n0,08\n−0,03\n\n\nUmidade relativa média (%)\n0,01\n0,21\n0,06\n0,19\n\n\nPrecipitação na semana (mm)\n−0,07\n0,00\n−0,19\n0,10\n\n\nMP2,5 médio (µg/m³)\n0,05\n−0,05\n0,05\n0,06\n\n\nMP10 médio (µg/m³)\n0,05\n−0,05\n0,06\n0,07\n\n\nOzônio médio (µg/m³)\n0,06\n−0,19\n−0,06\n−0,13\n\n\nCO médio (µg/m³)\n−0,10\n−0,08\n−0,13\n−0,18\n\n\n\n\n\n\n\n\n\n\n\nInternações por SRAG por 100 mil hab.\n\n\n\nMesma semana\n1 semana antes\n2 semanas antes\n3 semanas antes\n\n\n\n\nTemperatura média (°C)\n−0,72\n−0,72\n−0,62\n−0,57\n\n\nTemperatura mínima da semana (°C)\n−0,64\n−0,58\n−0,49\n−0,41\n\n\nTemperatura máxima da semana (°C)\n−0,71\n−0,73\n−0,62\n−0,51\n\n\nUmidade relativa média (%)\n0,42\n0,53\n0,44\n0,40\n\n\nPrecipitação na semana (mm)\n−0,26\n−0,08\n−0,09\n0,07\n\n\nMP2,5 médio (µg/m³)\n−0,02\n−0,09\n−0,09\n−0,25\n\n\nMP10 médio (µg/m³)\n−0,03\n−0,09\n−0,10\n−0,26\n\n\nOzônio médio (µg/m³)\n−0,69\n−0,75\n−0,62\n−0,57\n\n\nCO médio (µg/m³)\n0,38\n0,30\n0,28\n0,18\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n% de SG nos atendimentos (sentinela)\n\n\n\nMesma semana\n1 semana antes\n2 semanas antes\n3 semanas antes\n\n\n\n\nTemperatura média (°C)\n−0,88\n−0,81\n−0,81\n−0,71\n\n\nTemperatura mínima da semana (°C)\n−0,80\n−0,76\n−0,72\n−0,66\n\n\nTemperatura máxima da semana (°C)\n−0,79\n−0,74\n−0,71\n−0,56\n\n\nUmidade relativa média (%)\n0,54\n0,47\n0,51\n0,41\n\n\nPrecipitação na semana (mm)\n−0,06\n−0,15\n−0,05\n−0,05\n\n\nMP2,5 médio (µg/m³)\n0,05\n0,04\n−0,14\n−0,10\n\n\nMP10 médio (µg/m³)\n0,05\n0,04\n−0,14\n−0,11\n\n\nOzônio médio (µg/m³)\n−0,70\n−0,64\n−0,69\n−0,57\n\n\nCO médio (µg/m³)\n0,47\n0,50\n0,44\n0,45\n\n\n\n\n\n\n\n\n\n\n\nPositividade viral das amostras (sentinela)\n\n\n\nMesma semana\n1 semana antes\n2 semanas antes\n3 semanas antes\n\n\n\n\nTemperatura média (°C)\n0,16\n0,06\n0,10\n−0,04\n\n\nTemperatura mínima da semana (°C)\n0,17\n0,25\n0,08\n0,01\n\n\nTemperatura máxima da semana (°C)\n0,11\n−0,01\n0,09\n−0,04\n\n\nUmidade relativa média (%)\n−0,02\n0,18\n0,04\n0,16\n\n\nPrecipitação na semana (mm)\n−0,05\n0,03\n−0,21\n0,09\n\n\nMP2,5 médio (µg/m³)\n0,05\n−0,04\n0,05\n0,06\n\n\nMP10 médio (µg/m³)\n0,06\n−0,04\n0,04\n0,06\n\n\nOzônio médio (µg/m³)\n0,06\n−0,18\n−0,04\n−0,15\n\n\nCO médio (µg/m³)\n−0,12\n−0,10\n−0,12\n−0,18\n\n\n\n\n\n\n\n\n\n\n\nInternações por SRAG por 100 mil hab.\n\n\n\nMesma semana\n1 semana antes\n2 semanas antes\n3 semanas antes\n\n\n\n\nTemperatura média (°C)\n−0,76\n−0,76\n−0,66\n−0,59\n\n\nTemperatura mínima da semana (°C)\n−0,71\n−0,66\n−0,58\n−0,43\n\n\nTemperatura máxima da semana (°C)\n−0,74\n−0,74\n−0,66\n−0,55\n\n\nUmidade relativa média (%)\n0,46\n0,51\n0,43\n0,42\n\n\nPrecipitação na semana (mm)\n−0,21\n−0,15\n−0,12\n−0,02\n\n\nMP2,5 médio (µg/m³)\n−0,04\n−0,06\n−0,07\n−0,18\n\n\nMP10 médio (µg/m³)\n−0,04\n−0,07\n−0,08\n−0,20\n\n\nOzônio médio (µg/m³)\n−0,68\n−0,74\n−0,66\n−0,56\n\n\nCO médio (µg/m³)\n0,43\n0,37\n0,37\n0,30\n\n\n\n\n\n\n\n\n\n\nBaixar todas as correlações, com nº de semanas e valor de p (CSV separado por ;)"
+  },
+  {
+    "objectID": "metodo.html",
+    "href": "metodo.html",
+    "title": "Método e fontes",
+    "section": "",
+    "text": "Dado\nFonte\nAtualização\n\n\n\n\n% de SG nos atendimentos das UPAs sentinelas\nFicha de Agregado Semanal do Sivep-Gripe (export .dbf) — SG_TOTAL ÷ TC_TOTAL das 2 unidades somadas\nManual, a cada export\n\n\nVírus nas amostras sentinela\nindicador_12.csv do painel Vigilância Sentinela (classificação final por SE de início dos sintomas, NT nº 9/2025-2026)\nQuando o painel sentinela é atualizado\n\n\nInternações por SRAG\nBase de SRAG hospitalizado do SIVEP-Gripe na API dados.gov.br, no arquivo baixado pelo painel Vigilância Universal — SRAG\nQuando o painel de SRAG baixa a base\n\n\nClima diário\nOpen-Meteo — Historical Weather API (modelo/reanálise)\nA cada execução, até o dia anterior\n\n\nQualidade do ar\nOpen-Meteo — Air Quality API (previsão global CAMS, grade de ~45 km, valores horários resumidos por dia)\nA cada execução, até o dia anterior\n\n\nMunicípios e centroides\nAPI de localidades e malhas do IBGE; população estimada 2025 (mesma tabela do painel de SRAG)\nFixo"
+  },
+  {
+    "objectID": "metodo.html#fontes-de-dados",
+    "href": "metodo.html#fontes-de-dados",
+    "title": "Método e fontes",
+    "section": "",
+    "text": "Dado\nFonte\nAtualização\n\n\n\n\n% de SG nos atendimentos das UPAs sentinelas\nFicha de Agregado Semanal do Sivep-Gripe (export .dbf) — SG_TOTAL ÷ TC_TOTAL das 2 unidades somadas\nManual, a cada export\n\n\nVírus nas amostras sentinela\nindicador_12.csv do painel Vigilância Sentinela (classificação final por SE de início dos sintomas, NT nº 9/2025-2026)\nQuando o painel sentinela é atualizado\n\n\nInternações por SRAG\nBase de SRAG hospitalizado do SIVEP-Gripe na API dados.gov.br, no arquivo baixado pelo painel Vigilância Universal — SRAG\nQuando o painel de SRAG baixa a base\n\n\nClima diário\nOpen-Meteo — Historical Weather API (modelo/reanálise)\nA cada execução, até o dia anterior\n\n\nQualidade do ar\nOpen-Meteo — Air Quality API (previsão global CAMS, grade de ~45 km, valores horários resumidos por dia)\nA cada execução, até o dia anterior\n\n\nMunicípios e centroides\nAPI de localidades e malhas do IBGE; população estimada 2025 (mesma tabela do painel de SRAG)\nFixo"
+  },
+  {
+    "objectID": "metodo.html#definições",
+    "href": "metodo.html#definições",
+    "title": "Método e fontes",
+    "section": "Definições",
+    "text": "Definições\n\nSemana epidemiológica (SE): domingo a sábado, no padrão do Ministério da Saúde. Para o SRAG e para os vírus da sentinela, conta a SE de início dos sintomas; para a % de SG, a SE de atendimento informada na Ficha de Agregado.\nRecortes:\n\n15ª RS: SRAG de residentes dos 30 municípios da regional; clima é a média dos 30 municípios ponderada pela população.\nMaringá + Sarandi: SRAG só de residentes desses 2 municípios, onde ficam as UPAs sentinelas; clima ponderado pela população dos dois.\nA sentinela é a mesma nos dois recortes (só há as 2 UPAs).\n\nPositividade viral (sentinela): amostras com Influenza, COVID-19 ou outro vírus respiratório ÷ total de amostras da SE.\nTaxa de internação por SRAG: internações por SRAG na SE ÷ população do recorte × 100 mil.\nSE preliminar (SRAG): as 3 SE completas antes da data do download da base, que ainda vão receber notificações atrasadas. Aparecem em azul-claro nos gráficos e ficam fora das correlações.\nCorrelação: Spearman (não supõe relação linear). Calculada com pelo menos 8 semanas com dado."
+  },
+  {
+    "objectID": "metodo.html#limitações",
+    "href": "metodo.html#limitações",
+    "title": "Método e fontes",
+    "section": "Limitações",
+    "text": "Limitações\n\nUma única temporada (2026): poucas semanas para separar o efeito do clima da sazonalidade dos vírus.\nA sentinela representa 2 UPAs; o SRAG, toda a regional. Elas medem coisas diferentes (procura por atendimento leve x internação).\nClima e qualidade do ar são estimativas de modelo, não medições de estação.\nA sentinela e o SRAG fecham em datas diferentes (ver rodapé da Visão geral)."
+  },
+  {
+    "objectID": "metodo.html#privacidade",
+    "href": "metodo.html#privacidade",
+    "title": "Método e fontes",
+    "section": "Privacidade",
+    "text": "Privacidade\nNenhum dado identificável é versionado ou publicado. O script lê a base de SRAG (que já é pública e anonimizada na API) só para contar casos por SE e município de residência, e o cache intermediário fica em cache/, fora do git. Só saem para dados/ e img/ contagens agregadas por semana."
+  },
+  {
+    "objectID": "metodo.html#atribuição",
+    "href": "metodo.html#atribuição",
+    "title": "Método e fontes",
+    "section": "Atribuição",
+    "text": "Atribuição\nDados meteorológicos e de qualidade do ar: Open-Meteo.com, licença CC-BY 4.0. Qualidade do ar baseada em produtos do Copernicus Atmosphere Monitoring Service (CAMS)."
+  }
+]

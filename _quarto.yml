@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+  resources:
+    - "dados/*.csv"
+
+website:
+  title: "Vigilância Integrada — 15ª RS"
+  description: "Vigilância Sentinela de SG e Vigilância Universal de SRAG comparadas entre si e com o clima, 15ª Regional de Saúde de Maringá/PR."
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Visão geral
+      - href: vigilancias.qmd
+        text: Sentinela x SRAG
+      - href: clima.qmd
+        text: Clima
+      - href: metodo.qmd
+        text: Método e fontes
+    right:
+      - icon: github
+        href: https://github.com/valentim1979/vigilancia-integrada
+        aria-label: GitHub
+  page-footer:
+    left: "15ª Regional de Saúde de Maringá — SCVGE/DIVEA"
+    right: "Fontes: SIVEP-Gripe; Open-Meteo (CC-BY 4.0)"
+
+format:
+  html:
+    theme:
+      light: cosmo
+    css: styles.css
+    toc: false
+    page-layout: full
+
+execute:
+  echo: false
+  warning: false
+  message: false
