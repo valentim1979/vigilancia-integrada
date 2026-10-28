@@ -8,7 +8,7 @@ title: "Método e fontes"
 |---|---|---|
 | % de SG nos atendimentos das UPAs sentinelas | Ficha de Agregado Semanal do Sivep-Gripe (export `.dbf`) — `SG_TOTAL` ÷ `TC_TOTAL` das 2 unidades somadas | Manual, a cada export |
 | Vírus nas amostras sentinela | `indicador_12.csv` do painel [Vigilância Sentinela](https://valentim1979.github.io/vigilancia-sentinela/) (classificação final por SE de início dos sintomas, NT nº 9/2025-2026) | Quando o painel sentinela é atualizado |
-| Internações por SRAG | Base de SRAG hospitalizado do SIVEP-Gripe na API [dados.gov.br](https://dados.gov.br), no arquivo baixado pelo painel [Vigilância Universal — SRAG](https://valentim1979.github.io/virus-respiratorios/) | Quando o painel de SRAG baixa a base |
+| Internações por SRAG | SRAG hospitalizado do SIVEP-Gripe: 1º a base exportada manualmente do SIVEP e anonimizada pelo painel [Vigilância Universal — SRAG](https://valentim1979.github.io/virus-respiratorios/) (`~/SIVEP_dados/sivep_local_anon_<ano>.rds`); se ela não existir no computador, o arquivo da API [dados.gov.br](https://dados.gov.br) baixado por aquele painel | A cada export ou download (a API é publicada com alguns dias de atraso) |
 | Clima diário | [Open-Meteo](https://open-meteo.com/) — Historical Weather API (modelo/reanálise) | A cada execução, até o dia anterior |
 | Qualidade do ar | Open-Meteo — Air Quality API (previsão global CAMS, grade de ~45 km, valores horários resumidos por dia) | A cada execução, até o dia anterior |
 | Municípios e centroides | API de localidades e malhas do IBGE; população estimada 2025 (mesma tabela do painel de SRAG) | Fixo |

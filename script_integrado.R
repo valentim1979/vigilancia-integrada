@@ -51,26 +51,38 @@ pacman::p_load(
 
 readRenviron("~/.Renviron")
 
-# Export da Ficha de Agregado Semanal da sentinela (mesmo usado no
-# script_clima_casos.R do repositório vigilancia-sentinela).
-arquivo_agregado <- Sys.getenv("CAMINHO_SG_AGREGADO_DBF")
+ANO_ANALISE <- 2026
 
-# Pasta com os CSVs da API de SRAG (dbf_sivep/ do repositório virus-respiratorios).
-#   Mac: CAMINHO_SRAG_CACHE=/Users/valentimsalajunior/Documents/vigilancia-epidemiologica/dbf_sivep
+# Ficha de Agregado Semanal da sentinela - mesma ordem do repositório
+# vigilancia-sentinela:
+#   1º ~/SG_dados/sg_agregado_<ano>.rds (anonimizar_sg.R; pasta em SG_DADOS);
+#   2º o DBF em CAMINHO_SG_AGREGADO_DBF (computador sem o fluxo do ~/SG_entrada).
+dir_sg_dados <- path.expand(Sys.getenv("SG_DADOS", "~/SG_dados"))
+arquivo_agregado <- file.path(dir_sg_dados, paste0("sg_agregado_", ANO_ANALISE, ".rds"))
+if (!file.exists(arquivo_agregado)) arquivo_agregado <- Sys.getenv("CAMINHO_SG_AGREGADO_DBF")
+
+# SRAG - mesma ordem do repositório virus-respiratorios (carregar_base()):
+#   1º base do DBF baixado manualmente do SIVEP-Gripe e anonimizada pelo
+#      anonimizar_sivep.R: ~/SIVEP_dados/sivep_local_anon_<ano>.rds (pasta
+#      em SIVEP_DADOS) - mais atualizada que a API;
+#   2º CSV da API dados.gov.br já baixado pelo painel de SRAG, na pasta
+#      CAMINHO_SRAG_CACHE (dbf_sivep/ do repositório virus-respiratorios), ex.:
+#      CAMINHO_SRAG_CACHE=/Users/valentimsalajunior/Documents/vigilancia-epidemiologica/dbf_sivep
+dir_sivep_dados <- path.expand(Sys.getenv("SIVEP_DADOS", "~/SIVEP_dados"))
+arquivo_srag_local <- file.path(dir_sivep_dados, paste0("sivep_local_anon_", ANO_ANALISE, ".rds"))
 pasta_srag <- Sys.getenv("CAMINHO_SRAG_CACHE")
 
 # Chave do Open-Meteo: OPCIONAL (vazia = API gratuita, uso não comercial).
 chave_open_meteo <- Sys.getenv("OPEN_METEO_API_KEY")
 
-faltando <- c(CAMINHO_SG_AGREGADO_DBF = arquivo_agregado,
-              CAMINHO_SRAG_CACHE      = pasta_srag)
-faltando <- names(faltando)[faltando == ""]
-if (length(faltando) > 0) {
-  stop("Defina no ~/.Renviron: ", paste(faltando, collapse = ", "),
-       " (veja os comentarios no topo da secao 1).")
+if (identical(arquivo_agregado, "")) {
+  stop("Não achei a Ficha de Agregado Semanal: nem ", dir_sg_dados, "/sg_agregado_",
+       ANO_ANALISE, ".rds nem CAMINHO_SG_AGREGADO_DBF no ~/.Renviron.")
 }
-
-ANO_ANALISE <- 2026
+if (!file.exists(arquivo_srag_local) && identical(pasta_srag, "")) {
+  stop("Não achei o SRAG: nem ", arquivo_srag_local,
+       " nem CAMINHO_SRAG_CACHE no ~/.Renviron.")
+}
 
 # Positividade viral da sentinela (agregado por unidade/SE/categoria).
 URL_SENTINELA_VIRAL <- paste0("https://raw.githubusercontent.com/valentim1979/",
@@ -211,7 +223,14 @@ if (file.exists(arquivo_municipios)) {
 # ---- 5. SENTINELA: % DE SG NOS ATENDIMENTOS ---------------------------------------------
 
 # Só as colunas de contagem (OBSERVA, texto livre, fica de fora).
-sentinela_sg <- foreign::read.dbf(arquivo_agregado, as.is = TRUE) %>%
+message("Agregado semanal: ", arquivo_agregado)
+agregado_bruto <- if (grepl("\\.rds$", arquivo_agregado)) {
+  readRDS(arquivo_agregado)
+} else {
+  foreign::read.dbf(arquivo_agregado, as.is = TRUE)
+}
+
+sentinela_sg <- agregado_bruto %>%
   select(COD_UNID, SE = SE_ATEND, SG_TOTAL, TC_TOTAL) %>%
   filter(COD_UNID %in% unidades_sentinela) %>%
   group_by(SE) %>%
@@ -257,9 +276,23 @@ sentinela_positividade <- sentinela_virus %>%
 
 # ---- 7. SRAG: INTERNADOS POR RESIDÊNCIA -------------------------------------------------
 
-arquivo_srag <- file.path(pasta_srag, paste0("SRAG_API_", ANO_ANALISE, ".csv"))
-if (!file.exists(arquivo_srag)) stop("Não encontrei ", arquivo_srag)
-data_extracao_srag <- as.Date(file.mtime(arquivo_srag))
+colunas_srag <- c("DT_SIN_PRI", "CO_MUN_RES", "UTI", "EVOLUCAO", "CLASSI_FIN")
+
+if (file.exists(arquivo_srag_local)) {
+  # Base local anonimizada: já é só do PR, tudo texto e datas AAAA-MM-DD,
+  # como o CSV da API (ver anonimizar_sivep.R).
+  base_local <- readRDS(arquivo_srag_local)
+  data_extracao_srag <- as.Date(attr(base_local, "exportado_em"))
+  fonte_srag <- paste0("SIVEP-Gripe, exportado em ", format(data_extracao_srag, "%d/%m/%Y"))
+  srag_registros <- as_tibble(base_local)[, colunas_srag] %>%
+    mutate(across(everything(), as.character)) %>%
+    filter(CO_MUN_RES %in% municipios$cod_ibge_6)
+  rm(base_local)
+} else {
+  arquivo_srag <- file.path(pasta_srag, paste0("SRAG_API_", ANO_ANALISE, ".csv"))
+  if (!file.exists(arquivo_srag)) stop("Não encontrei ", arquivo_srag)
+  data_extracao_srag <- as.Date(file.mtime(arquivo_srag))
+  fonte_srag <- paste0("dados.gov.br, baixado em ", format(data_extracao_srag, "%d/%m/%Y"))
 
 # O CSV é nacional (centenas de MB): lê em blocos, só 5 colunas, e guarda só
 # residentes da 15ª RS. Cache em cache/ (fora do git), refeito se o CSV mudar.
@@ -282,6 +315,8 @@ if (file.exists(cache_srag) && file.mtime(cache_srag) >= file.mtime(arquivo_srag
   )
   saveRDS(srag_registros, cache_srag)
 }
+}
+message("SRAG: ", fonte_srag, " - ", nrow(srag_registros), " registros de residentes da 15ª RS")
 
 srag <- srag_registros %>%
   mutate(
@@ -507,6 +542,7 @@ readr::write_csv2(
   tibble(
     gerado_em          = Sys.Date(),
     extracao_srag      = data_extracao_srag,
+    fonte_srag         = fonte_srag,
     # Última SE com dado, pela ordem do calendário (não alfabética).
     ultima_se_sg       = dplyr::last(calendario$SE[calendario$SE %in% sentinela_sg$SE]),
     ultima_se_viral    = dplyr::last(calendario$SE[calendario$SE %in% sentinela_positividade$SE]),
@@ -528,8 +564,7 @@ cores_virus <- c(
 )
 
 rodape <- paste0("Fontes: Sivep-Gripe (Ficha de Agregado Semanal; Indicador 12 da NT9; ",
-                 "SRAG via dados.gov.br, baixado em ", format(data_extracao_srag, "%d/%m/%Y"),
-                 "); Open-Meteo (CC-BY 4.0). Gerado em ", format(Sys.Date(), "%d/%m/%Y"), ".")
+                 "SRAG: ", fonte_srag, "); Open-Meteo (CC-BY 4.0). Gerado em ", format(Sys.Date(), "%d/%m/%Y"), ".")
 
 paineis <- c(
   sg_pct           = "% de SG nos atendimentos\n(UPAs sentinelas)",
@@ -594,5 +629,5 @@ grafico_virus <- virus_semanal %>%
 ggsave(here::here("img", "virus_comparacao.png"), grafico_virus,
        width = 10, height = 7, dpi = 150, bg = "white")
 
-message("Pronto. SRAG baixado em ", format(data_extracao_srag, "%d/%m/%Y"), "; ",
+message("Pronto. SRAG: ", fonte_srag, "; ",
         nrow(calendario), " SE completas em ", ANO_ANALISE, ".")

@@ -54,7 +54,7 @@ if (!is.null(serie) && !is.null(referencias)) {
 ```
 
 ::: {.aviso-dado}
-**Datas diferentes em cada fonte.** As vigilâncias não fecham na mesma semana: a sentinela depende do export manual do Sivep-Gripe, e o SRAG vem do arquivo da API baixado pelo painel de SRAG. As **últimas `r if (!is.null(referencias)) referencias$semanas_prelim else 3` SE do SRAG** antes da data do download aparecem em azul-claro e ficam fora das correlações, porque ainda vão receber notificações atrasadas.
+**Datas diferentes em cada fonte.** As vigilâncias não fecham na mesma semana: a sentinela depende do export do Sivep-Gripe, e o SRAG vem do export manual do SIVEP-Gripe (quando disponível neste computador) ou, senão, do arquivo da API dados.gov.br, que sai com alguns dias de atraso. As **últimas `r if (!is.null(referencias)) referencias$semanas_prelim else 3` SE do SRAG** antes da data do download aparecem em azul-claro e ficam fora das correlações, porque ainda vão receber notificações atrasadas.
 :::
 
 ## Linha do tempo
@@ -81,7 +81,7 @@ SRAG só de residentes dos 2 municípios onde ficam as UPAs sentinelas — o rec
 if (!is.null(referencias)) {
   cat(paste0(
     "*Painel gerado em ", formatar_data(referencias$gerado_em),
-    ". SRAG: arquivo da API baixado em ", formatar_data(referencias$extracao_srag),
+    ". SRAG: ", referencias$fonte_srag,
     ". Sentinela: % de SG até a SE ", formatar_se(referencias$ultima_se_sg),
     "; positividade viral até a SE ", formatar_se(referencias$ultima_se_viral), ".*"
   ))

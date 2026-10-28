@@ -36,9 +36,17 @@ No `~/.Renviron`:
 ```
 CAMINHO_SG_AGREGADO_DBF=/Users/valentimsalajunior/Documents/DBF_Vig_Sentinela/SG2026_agregado.dbf
 CAMINHO_SRAG_CACHE=/Users/valentimsalajunior/Documents/vigilancia-epidemiologica/dbf_sivep
+# Opcionais - só se as pastas não forem as padrão (~/SG_dados e ~/SIVEP_dados):
+# SG_DADOS=...
+# SIVEP_DADOS=...
 # Opcional - só com plano pago do Open-Meteo:
 # OPEN_METEO_API_KEY=...
 ```
+
+Ordem das fontes (a mesma dos outros dois painéis):
+
+- **Agregado da sentinela:** `~/SG_dados/sg_agregado_<ano>.rds`; se não existir, o DBF em `CAMINHO_SG_AGREGADO_DBF`.
+- **SRAG:** `~/SIVEP_dados/sivep_local_anon_<ano>.rds` (export manual do SIVEP, mais atualizado); se não existir, o CSV da API em `CAMINHO_SRAG_CACHE`.
 
 ## Como atualizar
 
